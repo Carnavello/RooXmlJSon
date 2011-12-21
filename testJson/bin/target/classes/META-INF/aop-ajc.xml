@@ -1,0 +1,14 @@
+<aspectj>
+<aspects>
+<aspect name="test.json.web.UrlMapController_Roo_Controller"/>
+<aspect name="test.json.domain.UrlMap_Roo_ToString"/>
+<aspect name="test.json.domain.UrlMap_Roo_Json"/>
+<aspect name="test.json.domain.UrlMap_Roo_Configurable"/>
+<aspect name="test.json.web.UrlMapController_Roo_Controller_Json"/>
+<aspect name="test.json.domain.UrlMap_Roo_Entity"/>
+<aspect name="test.json.web.UrlMapController_Roo_Controller_Xml"/>
+<aspect name="test.json.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="test.json.domain.UrlMap_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+

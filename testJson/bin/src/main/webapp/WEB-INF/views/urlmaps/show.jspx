@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_test_json_domain_UrlMap" object="${urlmap}" path="/urlmaps" z="3QFyQevqhPMCIcDUKLB2W3vM+sM=">
+        <field:display field="shortUrl" id="s_test_json_domain_UrlMap_shortUrl" object="${urlmap}" z="x75tgWTvP8gYYc7i+75+S0z1mqY="/>
+        <field:display field="longUrl" id="s_test_json_domain_UrlMap_longUrl" object="${urlmap}" z="1QgJo7B5CfR4b9H2btuu/5tlkvA="/>
+    </page:show>
+</div>

@@ -1,0 +1,28 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-12-20 16:44:51
+project --topLevelPackage test.json --projectName testJson --java 6
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-12-20 16:44:52
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-12-20 16:45:47
+persistence setup --database HYPERSONIC_IN_MEMORY --provider HIBERNATE
+entity --class ~.domain.ZipSystem
+field string --fieldName cityName --column ZPCITYNM
+field string --fieldName stateCode --column ZSSTCODE
+// [failed] field string --fieldName cityName --column ZPCITYNM
+json all 
+web mvc setup
+web mvc install view --path ext --title "Ext JS WS" --viewName index
+perform eclipse
+web mvc install view --path ext --title "Ext JS WS" --viewName index
+entity --class ~.domain.UrlMap 
+json all
+field string --fieldName shortUrl --column SHORTURL --notNull
+field string --fieldName longUrl --column LONGURL --notNull
+web mvc all --package ~.web
+perform eclipse
+perform eclipse
+perform eclipse
+web mvc all --package ~.web
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-12-20 23:58:39
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-12-21 00:04:28
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
